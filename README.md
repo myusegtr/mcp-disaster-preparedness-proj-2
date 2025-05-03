@@ -13,6 +13,13 @@ This project is a two-part AI-driven disaster preparedness application designed 
 1. **Local Interactive MCP Chat Interface (`client.py`)**  
    A command-line conversational AI tool using Groq-powered LLM and MCPAgent, enabling users to retrieve live weather alerts by state.
 
+   Tips:- 
+   To run a particular server using FastMCP in local machine need to add below line in the code and then restart the server locally:-
+    if __name__ == "__main__":
+        mcp.run()
+
+    For more details refer to server/weather.json file.    
+
 2. **Deployed Disaster Alert API Server (`disaster.py`)**  
    A FastMCP-based API server that exposes tools for fetching:
    - Active weather alerts (via NOAA's NWS API)
@@ -140,6 +147,8 @@ By integrating key U.S. government data sources with modern AI interfaces, it de
 **Run locally in terminal**
     ```bash
     uv run server/client.py
+
+
 
 
     
