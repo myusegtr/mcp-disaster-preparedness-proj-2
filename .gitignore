@@ -7,7 +7,6 @@ wheels/
 *.egg-info
 
 # Virtual environments
-.venv/
 venv/
 deployment/client-std.py
 deployment/server.py
