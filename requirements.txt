@@ -38,6 +38,7 @@ langsmith==0.3.39
 loguru==0.7.3
 markdown-it-py==3.0.0
 marshmallow==3.26.1
+mcp==1.7.0
 mcp-use==1.2.8
 mdurl==0.1.2
 mmh3==5.1.0
