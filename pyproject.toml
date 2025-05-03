@@ -1,0 +1,14 @@
+[project]
+name = "mcp-proj-2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.115.12",
+    "fastembed>=0.6.1",
+    "langchain-groq>=0.3.2",
+    "mcp-use>=1.2.8",
+    "mcp[cli]>=1.7.0",
+    "nest-asyncio>=1.6.0",
+]
