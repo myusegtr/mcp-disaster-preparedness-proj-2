@@ -1,0 +1,15 @@
+{
+    "mcpServers":{
+        "multi_alert_system": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--with",
+        "mcp[cli]",
+        "mcp",
+        "run",
+        "C:\\Users\\AARADHYA\\Documents\\AI_projects\\mcp_proj_2\\server\\multialert.py"
+      ]
+    }
+}
+}

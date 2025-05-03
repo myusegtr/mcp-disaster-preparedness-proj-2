@@ -18,6 +18,7 @@ This project is a two-part AI-driven disaster preparedness application designed 
     if __name__ == "__main__":
         mcp.run()
 
+    In some cases u have to remove these line and then try restarting the servers.
     For more details refer to server/weather.json file.    
 
 2. **Deployed Disaster Alert API Server (`disaster.py`)**  
@@ -147,6 +148,7 @@ By integrating key U.S. government data sources with modern AI interfaces, it de
 **Run locally in terminal**
     ```bash
     uv run server/client.py
+    uv run mcp dev server/multialert.py
 
 
 
